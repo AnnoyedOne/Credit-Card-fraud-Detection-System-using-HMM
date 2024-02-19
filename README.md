@@ -1,7 +1,16 @@
 # Credit Card Fraud Detection System Using HMM
 
 ## Overview
-This is a simple Streamlit web application for credit card fraud detection using a Hidden Markov Model (HMM). The app reads a credit card dataset, undersamples legitimate transactions to balance the classes, and trains an HMM on the data. Users can input transaction features, and the app predicts whether the transaction is legitimate or fraudulent.
+The Credit Card Fraud Detection System is a robust application built on the principles of Hidden Markov Models (HMM) to identify potentially fraudulent credit card transactions. Leveraging advanced machine learning techniques, this system aims to enhance security measures in financial transactions by accurately distinguishing between legitimate and fraudulent activities.
+
+## Key Features
+- **Hidden Markov Model:** Utilizes a Gaussian Hidden Markov Model for sequential data analysis, enabling the detection of subtle patterns indicative of fraudulent behavior.
+
+- **Balanced Dataset:** Implements undersampling to balance the dataset, ensuring the model is trained on a representative distribution of legitimate and fraudulent transactions.
+  
+- **Streamlit Web Application:** The user-friendly Streamlit web interface allows users to input transaction features, providing instant predictions on the legitimacy of a transaction.
+  
+- **Customizable:** Easily adaptable to different datasets and scenarios, with potential for fine-tuning model parameters for optimal performance.
 
 ## Usage
 1. Install the required dependencies using:
@@ -29,5 +38,6 @@ This is a simple Streamlit web application for credit card fraud detection using
 - streamlit
 
 ## Notes
-- Make sure to customize the dataset filename and path in the `app.py` file.
-- Fine-tune the HMM model parameters based on your dataset and requirements.
+- Ensure to customize the dataset filename and path in the `app.py` file.
+- Fine-tune the HMM model parameters based on your dataset and specific requirements.
+
