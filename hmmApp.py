@@ -22,7 +22,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratif
 
 # train Hidden Markov Model
 model = hmm.GaussianHMM(n_components=2, random_state=42)
-#model = hmm.GaussianHMM(n_components=2)  # You may need to tune n_components
 model.fit(X_train)
 
 # create Streamlit app
